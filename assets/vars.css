@@ -1,0 +1,55 @@
+:root {
+    --namumFont: "NanumSquareNeo";
+    --gmarketFont: "GmarketSans";
+
+    --mainColor: #EEEEEE;
+
+    --black: #000;
+    --white: #fff;
+    --red: #f00;
+    --green: #099b31;
+
+    --white100: #eaeaea;
+    --white200: #e7e7e7;
+    --white300: #dbdbdb;
+    --white400: #cacaca;
+    --white500: #bdbdbd;
+    --white600: #b3b3b3;
+    --white700: #a7a7a7;
+
+    --black100: #333;
+    --black200: #555;
+    --black300: #777;
+    --black400: #999;
+    --black500: #d7d7d7;
+    --black600: #e8e8e8;
+
+    --blackA100: #000000d9;
+    --blackA200: #000000cb;
+    --blackA300: #000000a5;
+    --blackA400: #00000081;
+    --blackA500: #0000004d;
+    --blackA600: #00000021;
+    --blackA700: #0000000d;
+
+    /* 기본 폰트 설정 */
+    font-family: var(--namumFont);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /* 폰트를 부드럽게 렌더링하기 위한 속성  */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+    }
+}
